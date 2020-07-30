@@ -1,0 +1,98 @@
+Territory Manager - Español
+
+-1.0 (7/18/2011)
+Inital release.
+
+-1.1 (7/19/2011)
+Major bug fixed: Moving a sector, street or building up/down causes loss of data if the item selected has less data than the one above (for up press) or below (for down press).
+
+-1.2 (7/21/2011)
+Minor bug fixed: Add door button is disabled after deleting a door.
+
+-1.3 (7/22/2011)
+New feature: New, Open, Save and Export hotkeys added.
+GUI: The Other information of a door is now exported directly after Afternoons.
+GUI: Added icons for all the available options.
+GUI: Options selected are now highlighted in red as well as bold.
+GUI: Value controls are not visible anymore unless their respective option is selected.
+GUI: Open/Close dialogs show the title in spanish.
+
+-1.4 (12/29/2011)
+Minor bug fixed: (Export) Cell format set to Text.
+Minor bug fixed: (Export) Page number cell now uses less spaces to fit larger page numbers.
+Minor bug fixed: (Export) Text overlapping fixed by enabling Shrink to fit for all cells.
+New feature: Drag and drop support for territory files added.
+New feature: (Export) Arial Narrow font (10pt) is now used along with vertical centering of text.
+New feature: (Export) Census info is now exported in Italic and/or Bold.
+New feature: (ExportS) Header cells are now merged to work with the Shrink to fit option.
+GUI: Fixed tab order for the Info button.
+
+-1.4.1 (12/29/2011)
+Major bug fixed: Export fails with Excel 2007 and earlier versions.
+
+-1.5 (9/24/2012)
+Minor bug fixed: Ctrl+C does not work.
+Minor bug fixed: Header/Door list boxes do not refresh if an item's text case is changed.
+New feature: Added button to automatically sort doors (numeric or letter list only)
+GUI: Fixed Save button position.
+Performance: Faster door count when setting up export progress bar
+New feature: Added option for 5" x 8" format
+
+-1.5.1 (9/27/2012)
+GUI: (Export) Ligther header colors and door continuation note on 5" x 8" format
+
+-1.5.2 (10/05/2012)
+GUI: (Export) Vertical centering removed to prevent misplacement
+
+-1.6 (01/11/2013)
+New feature: Excel no longer used; exports directly to XML Spreadsheet file
+New feature: Command line argument handling for territory files
+New feature: Copy/Paste context menu for date controls
+New feature: (Export) Added footer with territory name and page numbers
+GUI: End of territory file path is now shown upon loading a territory
+GUI: Full path of current territory is no longer shown in the Open dialog
+GUI: Group box descriptions are now less verbose and imposing
+GUI: Escape key now cancels Sectors Edit box
+GUI: Added icons for RV householder and brother names
+GUI: (Export) Horizontal centering removed from 5x8 format for consistency
+GUI: (Export) Made some notes bold to make them stand out
+GUI: (Export) Fixed instances where RV/EST note stayed short incorrectly
+
+-1.7 (03/26/2013)
+New feature: Added command line arguments to register and unregister ".terr" files
+New feature: Added tool tips to many controls
+GUI: Changed terriory file description in the Save dialog
+GUI: Standarized project name
+GUI: Sort button now disappears if the list is unsortable
+GUI: Standarized buttons and redesigned forms layout
+GUI: Changed font to Tahoma instead of Segoe UI (for XP compatibility)
+GUI: (Export) Increased left marging on both formats
+
+-1.7.1 (04/25/2013)
+New feature: Added button to get territory total door count
+
+-1.8 (5/28/2014)
+Export: Exported Excel file uses .xls extension instead of .xml
+Export: Format 2 uses all Arial Narrow font
+Export: Format 2 includes territory door count
+Export: Format 2 now uses a more compact style
+Export: Format 2 now displays continuation header when necessary
+GUI: Fixed tab order on Edit Sectors form
+New feature: Added hidden options stored in an XML file
+	Option to use a lower print quality (300 dpi instead of 600 dpi)
+	Option to export with latin date format
+	Option to disable door count export (Format 2)
+	Options to change header labels (Format 2)
+	Option to change Excel file extension
+
+-1.8.1 (6/17/2014)
+Minor bug fix: Settings file
+
+-1.8.2
+GUI: Dates default to current date
+
+-1.8.3
+Updated to target .NET Framework 4.6
+
+-1.8.4 (7/30/2020)
+Minor semantic changes
